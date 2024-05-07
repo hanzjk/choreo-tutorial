@@ -23,7 +23,7 @@ spec:
   outbound:
     serviceReferences:
     - name: choreo:///hwjsk/appointment-management/snbqpb/8b1c3/v1/ORGANIZATION
-      connectionConfig: 01ef0c34-54a9-1788-bbe3-48375d6da29c
+      connectionConfig: 01ef0c34-d1d4-1ed8-9671-0ec3ac1b788f
       env:
       - from: ServiceURL
         to: APPOINTMENT_SERVICE_URL
