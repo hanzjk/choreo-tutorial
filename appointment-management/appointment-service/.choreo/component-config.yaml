@@ -20,3 +20,19 @@ spec:
       # This is only applicable to REST endpoint types.
       # The path should be relative to the Docker context.
       schemaFilePath: openapi.yaml
+  outbound:
+    serviceReferences:
+    - name: database:hrdbdev
+      connectionConfig: 01ef7117-bfed-1e4e-8776-2ac6a35b4cf5
+      env: 
+      - from: HostName
+        to: DB_HOST
+      - from: Port
+        to: DB_PORT
+      - from: Username
+        to: DB_USER
+      - from: Password
+        to: DB_PASSWORD
+      - from: DatabaseName
+        to: DB_NAME
+
