@@ -23,7 +23,7 @@ spec:
   outbound:
     serviceReferences:
     - name: database:hrdbdev
-      connectionConfig: 01ef711a-7bb0-1138-b623-9b98fec09e52
+      connectionConfig: 01ef7122-b6b6-1456-b75c-5d6609750167
       env: 
       - from: HostName
         to: DB_HOST
