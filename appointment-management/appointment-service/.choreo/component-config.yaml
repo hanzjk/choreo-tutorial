@@ -22,8 +22,8 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-    - name: database:appdbDev
-      connectionConfig: 01ef8a08-c585-165e-a98c-61c544aea3e1
+    - name: database:TestDbConnections-Redis
+      connectionConfig: 01ef8a08-ee0d-15f8-8ede-d0402ac0f096
       env: 
       - from: HostName
         to: DB_HOST
@@ -33,6 +33,4 @@ spec:
         to: DB_USER
       - from: Password
         to: DB_PASSWORD
-      - from: DatabaseName
-        to: DB_NAME
 
