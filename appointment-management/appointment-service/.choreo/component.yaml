@@ -12,18 +12,7 @@ endpoints:
     schemaFilePath: openapi.yaml
 
 dependencies:
-  serviceReferences:
-    - name: database:hoteldbStage
-      connectionConfig: 01ef92a8-592c-1210-93c4-038dcb005de7
-      env: 
-      - from: HostName
-        to: DB_HOST
-      - from: Port
-        to: DB_PORT
-      - from: Username
-        to: DB_USER
-      - from: Password
-        to: DB_PASSWORD
-      - from: DatabaseName
-        to: DB_NAME
+    connectionReferences:
+    - name: test3
+      resourceRef: database:TestMySqLDbServer/hoteldbStage
 
