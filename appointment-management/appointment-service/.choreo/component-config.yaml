@@ -22,8 +22,8 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-    - name: choreo:///hansijk/howtousetest/oauth2/8b1c3/v1/PUBLIC
-      connectionConfig: 01ef91bc-ad59-1d70-bd8b-3136e8bcfcd8
+    - name: database:hoteldbStage
+      connectionConfig: 01ef92a8-166a-1490-99db-efeccd987807
       env: 
       - from: HostName
         to: DB_HOST
