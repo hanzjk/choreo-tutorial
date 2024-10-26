@@ -13,6 +13,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name:TestDBConn
-      resourceRef:database:TestMySqLDbServer/hoteldbStage
+    - name: TestDBConn
+      resourceRef: database:TestMySqLDbServer/hoteldbStage
 
