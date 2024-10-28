@@ -35,4 +35,6 @@ spec:
         to: DB_PASSWORD
       - from: DatabaseName
         to: DB_NAME
+      - from: DatabaseNameTest
+        to: DB_NAMETEST
 
