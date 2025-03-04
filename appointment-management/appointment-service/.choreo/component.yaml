@@ -11,9 +11,3 @@ endpoints:
     networkVisibility: Public
     schemaFilePath: openapi.yaml
 
-dependencies:
-    connectionReferences:
-    - name: testdbconnn2
-      resourceRef: database:testDbConnection-sql/appdbDev
-    
-
