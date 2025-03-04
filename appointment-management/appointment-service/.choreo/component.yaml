@@ -10,4 +10,7 @@ endpoints:
     # Accepted values: Project|Organization|Public.
     networkVisibility: Public
     schemaFilePath: openapi.yaml
-
+dependencies:
+    connectionReferences:
+    - name: dbconnnn
+      resourceRef: database:testDbConnection-sql/appdbDev
