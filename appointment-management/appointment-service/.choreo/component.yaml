@@ -13,7 +13,7 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: testdbconnstage
+    - name: testdbconnn2
       resourceRef: database:testDbConnection-sql/appdbDev
     
 
