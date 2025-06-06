@@ -12,5 +12,5 @@ endpoints:
       schemaFilePath: openapi.yaml
 dependencies:
     connectionReferences:
-    - name: testDbConn
-      resourceRef: database:testDbConnection-sql/appdbDev
+    - name: TestDBCON
+      resourceRef: database:testDbConnection-sql/appointmentsdb-dev1
