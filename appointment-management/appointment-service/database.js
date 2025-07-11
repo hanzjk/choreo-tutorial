@@ -1,13 +1,13 @@
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
-  process.env.CHOREO_TESTDBCON_DATABASENAME,
-  process.env.CHOREO_TESTDBCON_USERNAME,
-  process.env.CHOREO_TESTDBCON_PASSWORD,
+  process.env.CHOREO_TESTDBCON1_DATABASENAME,
+  process.env.CHOREO_TESTDBCON1_USERNAME,
+  process.env.CHOREO_TESTDBCON1_PASSWORD,
   {
-    host: process.env.CHOREO_TESTDBCON_HOSTNAME,
+    host: process.env.CHOREO_TESTDBCON1_HOSTNAME,
     dialect: 'mysql',
-    port: process.env.CHOREO_TESTDBCON_PORT,
+    port: process.env.CHOREO_TESTDBCON1_PORT,
   }
 );
 
